@@ -61,10 +61,3 @@ For class `com.hazelcast.FooBar` and the following rules
 **.hazelcast.**@sa-**=on,threshold:10
 ```
 The threshold will be set to 10 milliseconds because of the last matching rule
-
-__Log all classes that implement an interface__
-To log all classes inheriting from `java.sql interfaces`, regardless of the duration
-```
-[java.sql.**]=threshold:0,on
-```
-__IMPORTANT__: Use with care as this can result in lots of logging
